@@ -7,7 +7,7 @@ class TrackAPI extends RESTDataSource {
     }
 
     getTracksForHome(){
-        return this.getTracksForHome('tracks')
+        return this.get('tracks')
     }
 
     getAuthor(authorID) {
@@ -15,4 +15,4 @@ class TrackAPI extends RESTDataSource {
     }
 }
 
-module.exports = TrackAPI
+module.exports = TrackAPI;
