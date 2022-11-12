@@ -2,12 +2,12 @@ const resolvers = {
     Query: {
         // returns an Array of Tracks that will be used to populate the homepage grid of our website
         tracksForHome: (_, __, {dataSources}) => {
-            return dataSources.trackAPI.getTracksFromHOme
+            return dataSources.trackAPI.getTracksForHome();
         }
     },
     Track: {
         author: ({authorId}, _, {dataSources}) => {
-            return dataSources.trackAPI.getAuthor(authorId)
+            return dataSources.trackAPI.getAuthor(authorId);
         }
     }
 };
