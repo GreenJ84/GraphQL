@@ -9,7 +9,7 @@ const resolvers = {
   },
   Location: {
     __resolveReference: ({id}, {dataSources}) => {
-      return dataSources.locationsAPI.getLocations(id)
+      return dataSources.locationsAPI.getLocation(id)
     }
   }
 };
