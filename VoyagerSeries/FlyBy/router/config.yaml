@@ -1,6 +1,6 @@
 cors:
   origins:
     - http://localhost:3000
-    - http://studio.apollographql.com
+    - https://studio.apollographql.com
 supergraph:
   introspection: true
