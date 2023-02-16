@@ -1,4 +1,4 @@
-# GraphQL Learning and Training
+# Apollo-GraphQL Training
 
 This will be a collection of my works going through Apollo Learning with GraphQL.
 
